@@ -51,7 +51,7 @@ interval_update_status = "55m0s"
 ipv4_address = ""
 
 # API listen-address
-listen_on = "0.0.0.0:${dvpn_port}"
+listen_on = ${listen_on}
 
 # Name of the node
 moniker = ${node}
